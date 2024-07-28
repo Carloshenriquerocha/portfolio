@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+#box_principal {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/assets/img/img_background_portifolio-removebg-preview2.png);
+  background-repeat: no-repeat;
+  background-position: 800px;
+  background-color: #191919;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#portfolio {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+#portfolio span {
+  color: #f9004d;
+}
+
+li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  margin: 30px;
+}
+li:hover {
+  color: #f9004d;
+  transition: 0.5s;
+}
+
+.link_menu {
+  text-decoration: none;
+  color: white;
+}
+
+#my_name {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+#my_name h1 {
+  color: #fff;
+  font-size: 45px;
+}
+
+#my_name h1 span {
+  color: #f9004d;
+}
+
+#my_name h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  padding: 15px 0;
+}
+section h2 {
+  color: #a83131;
+  font-size: 60px;
+  padding-left: 30px;
+}
+
+section p {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+section img {
+  border-radius: 10%;
+  border: #f9004d 2px solid;
+  height: 400px;
+}
+
+section div button {
+  height: 50px;
+  color: #fff;
+  background-color: #f9004d;
+  width: 180px;
+  border: none;
+  font-size: 20px;
+  border-radius: 26px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+section div button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section div button:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+  border: #f9004d solid 2px;
+}
+
+#projetos {
+  background-color: #191919;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#projetos h2 {
+  color: white;
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.card {
+  background-color: #000;
+  width: 350px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px;
+}
+.card img {
+  height: 100px;
+}
+
+.card h4 {
+  color: white;
+}
+.card a {
+  background-color: #f9004d;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding-bottom: 5px;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: transparent;
+  border: #f9004d solid 2px;
+  transition: 0.5s;
+}
+
+.card p {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+#card-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+footer h4 {
+  color: white;
+  font-size: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+.social img {
+  height: 30px;
+  border-radius: 50%;
+}
+.social a {
+  background-color: #f9004d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
